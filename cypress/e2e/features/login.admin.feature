@@ -17,8 +17,8 @@ Feature: Login and Add Multiple Admins
 
     Examples:
       | username | password  | newUsername    | role   |
-      | Admin    | admin123  | cypressuser111w22  | ESS    |
-      | Admin    | admin123  | cypressuser22222w1  | Admin  |
+      | Admin    | admin123  | cssuser1w2s2  | ESS    |
+      | Admin    | admin123  | cressuser22sw1  | Admin  |
 
   Scenario Outline: Login with invalid credentials
     Given user tries to login using invalid fixture "invalidUser"
