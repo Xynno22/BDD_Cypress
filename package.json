@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "scripts": {
-  "test": "npx cypress run --reporter mochawesome --reporter-options reportDir=mochawesome-report,overwrite=true,html=true,json=false"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
